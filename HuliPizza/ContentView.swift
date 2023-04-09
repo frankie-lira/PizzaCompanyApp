@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    var orders:[Int] = [1]
     var body: some View {
         VStack {
             ZStack {
@@ -18,6 +19,7 @@ struct ContentView: View {
                 Text("Huli Pizza Company")
                     .background()
             }
+            Image(systemName: orders.isEmpty ? "cart" : "cart.circle.fill")
             HStack {
                 Text("Order Pizza")
                     .font(.title)
@@ -29,8 +31,13 @@ struct ContentView: View {
                 Spacer()
                 Text("$00.00")
             }
+            VStack {
+                Image(systemName: "rectangle.fill").font(.largeTitle)
+                Text("Margherita")
+                Text("Description")
+            }
             HStack(alignment: .top, spacing: 15) {
-                Image("0_sm")
+                Image(systemName: "1.circle.fill").font(.largeTitle)
                 VStack(alignment: .leading) {
                     Text("Margherita")
                     Text("Description")
