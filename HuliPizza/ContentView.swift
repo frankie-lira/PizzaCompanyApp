@@ -37,34 +37,43 @@ struct ContentView: View {
                         Text("$00.00")
                     }
                 }
-            }
-            
-            VStack {
-                Image(systemName: "rectangle.fill").font(.largeTitle)
-                Text("Margherita")
-                Text("Description")
-            }
-            
-            ScrollView{
-                ForEach(1...25, id: \.self){ item in //for loop to lay out all items 1-5
-                    HStack(alignment: .top, spacing: 15) {
-                        Image(systemName: "\(item).circle.fill").font(.largeTitle) //used estrapolation
-                        VStack(alignment: .leading) {
-                            Text("Margherita")
-                            Text("Description")
+                
+                
+                VStack {
+                    if let image = UIImage(named: "0_lg"){
+                        Image(uiImage: image)
+                    } else {
+                        Image("surfboard_lg")
+                    }
+                    Text("Margherita")
+                    Text("Description")
+                }
+                
+                ScrollView{
+                    ForEach(1...25, id: \.self){ item in //for loop to lay out all items 1-5
+                        HStack(alignment: .top, spacing: 15) {
+                            if let image = UIImage(named: "\(item)_sm"){
+                                Image(uiImage: image)
+                            } else {
+                                Image("surfboard_sm")
+                            }
+                            VStack(alignment: .leading) {
+                                Text("Margherita")
+                                Text("Description")
+                            }
                         }
                     }
                 }
+                Spacer()
             }
-            Spacer()
+            .padding()
         }
-        .padding()
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-        
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+            
+        }
     }
 }
