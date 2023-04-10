@@ -12,13 +12,22 @@ struct MenuItemView: View {
         VStack {
             if let image = UIImage(named: "0_lg"){
                 Image(uiImage: image)
-//                    .clipShape(RoundedRectangle(cornerRadius: 10))
-                    .cornerRadius(10)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                //                    .cornerRadius(10)
             } else {
                 Image("surfboard_lg")
             }
-            Text("Margherita")
-            Text("Description")
+            VStack(alignment: .leading) {
+                Text("Margherita")
+                    .font(.title)
+                    .fontWeight(.semibold)
+                
+                ScrollView {
+                    Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare dignissim nisl nec dignissim. Aliquam a molestie nulla. Nam efficitur convallis ante. Sed turpis dui, pulvinar at dolor ut, placerat finibus mauris. Vivamus vitae sollicitudin urna, auctor dignissim erat. Fusce fringilla vulputate lacus non pretium. Proin ullamcorper, nibh quis imperdiet.")
+                        .font(.custom("Georgia", size: 18, relativeTo: .body))
+                }
+            }
+            
         }
     }
 }
