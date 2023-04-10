@@ -17,6 +17,7 @@
 		C2681CA929E3BEC300F7CC2A /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681CA829E3BEC300F7CC2A /* MenuRowView.swift */; };
 		C2681CAB29E3BEE600F7CC2A /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681CAA29E3BEE600F7CC2A /* OrderRowView.swift */; };
 		C2681CAD29E3BEF300F7CC2A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681CAC29E3BEF300F7CC2A /* HeaderView.swift */; };
+		C2681CAF29E3CF1D00F7CC2A /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681CAE29E3CF1D00F7CC2A /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C2681CA829E3BEC300F7CC2A /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
 		C2681CAA29E3BEE600F7CC2A /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
 		C2681CAC29E3BEF300F7CC2A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C2681CAE29E3CF1D00F7CC2A /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				C2681C9429E0F92800F7CC2A /* HuliPizzaApp.swift */,
+				C2681CAE29E3CF1D00F7CC2A /* RatingView.swift */,
 				C2681C9629E0F92800F7CC2A /* ContentView.swift */,
 				C2681CA229E32D9B00F7CC2A /* OrderView.swift */,
 				C2681CA429E32DEE00F7CC2A /* MenuView.swift */,
@@ -158,6 +161,7 @@
 				C2681CA329E32D9B00F7CC2A /* OrderView.swift in Sources */,
 				C2681CA529E32DEE00F7CC2A /* MenuView.swift in Sources */,
 				C2681C9729E0F92800F7CC2A /* ContentView.swift in Sources */,
+				C2681CAF29E3CF1D00F7CC2A /* RatingView.swift in Sources */,
 				C2681C9529E0F92800F7CC2A /* HuliPizzaApp.swift in Sources */,
 				C2681CA929E3BEC300F7CC2A /* MenuRowView.swift in Sources */,
 				C2681CAB29E3BEE600F7CC2A /* OrderRowView.swift in Sources */,
