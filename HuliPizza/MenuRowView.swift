@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MenuRowView: View {
-    var item: Int = 2
+    var item: Int
     var body: some View {
         HStack(alignment: .top, spacing: 15) {
             if let image = UIImage(named: "\(item)_sm"){
@@ -26,6 +26,6 @@ struct MenuRowView: View {
 
 struct MenuRowView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuRowView()
+        MenuRowView(item: 2)
     }
 }
