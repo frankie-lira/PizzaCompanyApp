@@ -8,12 +8,20 @@
 import SwiftUI
 
 struct OrderRowView: View {
-    var order: Int 
+    var order: Int
     var body: some View {
-        HStack(alignment: .firstTextBaseline){
-            Text("Your Order item \(order)")
-            Spacer()
-            Text("$00.00")
+        VStack {
+            HStack {
+                Text("Your Order item \(order)")
+                Spacer()
+            }
+            HStack(alignment: .firstTextBaseline){
+                Text(1, format: .number)
+                Text(19.90, format: .currency(code: "USD"))
+                Spacer()
+                Text(19.90, format: .currency(code: "USD"))
+                    .fontWeight(.semibold)
+            }
         }
     }
 }
