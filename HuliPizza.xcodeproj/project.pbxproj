@@ -66,8 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				C2681C9429E0F92800F7CC2A /* HuliPizzaApp.swift */,
-				C2681CAE29E3CF1D00F7CC2A /* RatingView.swift */,
 				C2681C9629E0F92800F7CC2A /* ContentView.swift */,
+				C2681CAE29E3CF1D00F7CC2A /* RatingView.swift */,
 				C2681CA229E32D9B00F7CC2A /* OrderView.swift */,
 				C2681CA429E32DEE00F7CC2A /* MenuView.swift */,
 				C2681CA629E3BEAC00F7CC2A /* MenuItemView.swift */,

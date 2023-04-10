@@ -9,13 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var orders: [Int] = [1,2,3,4,6]
+    var showOrders: Bool = true
     var body: some View {
         
         VStack {
             HeaderView()
-            OrderView(orders: orders)
-            MenuItemView()
-            MenuView()
+            if showOrders{
+                OrderView(orders: orders)
+            }
+            else{
+                MenuItemView()
+                MenuView()
+            }
             Spacer()
         }
         .padding()
