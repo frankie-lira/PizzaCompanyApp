@@ -11,6 +11,12 @@
 		C2681C9729E0F92800F7CC2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681C9629E0F92800F7CC2A /* ContentView.swift */; };
 		C2681C9929E0F92B00F7CC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2681C9829E0F92B00F7CC2A /* Assets.xcassets */; };
 		C2681C9C29E0F92B00F7CC2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2681C9B29E0F92B00F7CC2A /* Preview Assets.xcassets */; };
+		C2681CA329E32D9B00F7CC2A /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681CA229E32D9B00F7CC2A /* OrderView.swift */; };
+		C2681CA529E32DEE00F7CC2A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681CA429E32DEE00F7CC2A /* MenuView.swift */; };
+		C2681CA729E3BEAC00F7CC2A /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681CA629E3BEAC00F7CC2A /* MenuItemView.swift */; };
+		C2681CA929E3BEC300F7CC2A /* MenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681CA829E3BEC300F7CC2A /* MenuRowView.swift */; };
+		C2681CAB29E3BEE600F7CC2A /* OrderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681CAA29E3BEE600F7CC2A /* OrderRowView.swift */; };
+		C2681CAD29E3BEF300F7CC2A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681CAC29E3BEF300F7CC2A /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		C2681C9629E0F92800F7CC2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C2681C9829E0F92B00F7CC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2681C9B29E0F92B00F7CC2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C2681CA229E32D9B00F7CC2A /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		C2681CA429E32DEE00F7CC2A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		C2681CA629E3BEAC00F7CC2A /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		C2681CA829E3BEC300F7CC2A /* MenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRowView.swift; sourceTree = "<group>"; };
+		C2681CAA29E3BEE600F7CC2A /* OrderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRowView.swift; sourceTree = "<group>"; };
+		C2681CAC29E3BEF300F7CC2A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				C2681C9429E0F92800F7CC2A /* HuliPizzaApp.swift */,
 				C2681C9629E0F92800F7CC2A /* ContentView.swift */,
+				C2681CA229E32D9B00F7CC2A /* OrderView.swift */,
+				C2681CA429E32DEE00F7CC2A /* MenuView.swift */,
+				C2681CA629E3BEAC00F7CC2A /* MenuItemView.swift */,
+				C2681CA829E3BEC300F7CC2A /* MenuRowView.swift */,
+				C2681CAA29E3BEE600F7CC2A /* OrderRowView.swift */,
+				C2681CAC29E3BEF300F7CC2A /* HeaderView.swift */,
 				C2681C9829E0F92B00F7CC2A /* Assets.xcassets */,
 				C2681C9A29E0F92B00F7CC2A /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2681CA329E32D9B00F7CC2A /* OrderView.swift in Sources */,
+				C2681CA529E32DEE00F7CC2A /* MenuView.swift in Sources */,
 				C2681C9729E0F92800F7CC2A /* ContentView.swift in Sources */,
 				C2681C9529E0F92800F7CC2A /* HuliPizzaApp.swift in Sources */,
+				C2681CA929E3BEC300F7CC2A /* MenuRowView.swift in Sources */,
+				C2681CAB29E3BEE600F7CC2A /* OrderRowView.swift in Sources */,
+				C2681CA729E3BEAC00F7CC2A /* MenuItemView.swift in Sources */,
+				C2681CAD29E3BEF300F7CC2A /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
